@@ -1,0 +1,55 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ .atas { background-color: red;
+padding-top: 0px;
+height: 130px;
+justify-content: center;
+flex-direction: column;
+color: white;
+
+}
+
+.beranda {
+    color: white;
+    
+}
+
+
+header {
+    display: flex;
+flex-direction:row;
+justify-content: center;
+background-color: red;
+}
+
+.potolegion img{
+    width: 200px;
+    height: 200px;
+}
+
+.potolegion {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.btndesc {
+    background-color: rgb(58, 204, 223);
+    border-radius: 30%;
+    height: 40px;
+    width: 75px;
+}
+
+footer h3 {
+    color: white;
+    background-color: red;
+    width: 100%;
+    height: 250px;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+    
+}
