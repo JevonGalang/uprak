@@ -64,7 +64,24 @@ function input() {
             let dip = document.createElement("div")
 
                 btn.addEventListener("click", function () {
-          this.parentElement.remove()
+                    Swal.fire({
+  title: "Are you sure?",
+  text: "You won't be able to revert this!",
+  icon: "warning",
+  showCancelButton: true,
+  confirmButtonColor: "#3085d6",
+  cancelButtonColor: "#d33",
+  confirmButtonText: "yaa!"
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire({
+      title: "Deleted!",
+      text: "kamu berhasil menghapus list.",
+      icon: "success"
+    });
+    this.parentElement.remove()
+  }
+});
         })
 
             dip.appendChild(kakak)
