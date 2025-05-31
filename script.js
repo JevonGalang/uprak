@@ -88,7 +88,7 @@ function input() {
             dip.appendChild(harga)
             dip.appendChild(asikk)
             dip.appendChild(btn)
-            dip.id = "ada"
+            dip.id = "yaa"
             inter.appendChild(dip)
       }
     });
