@@ -1,3 +1,9 @@
+ let button = document.getElementById("buttondesc")
+button.style.backgroundColor = "aqua" 
+button.style.border = "none"
+button.style.borderRadius = "16px"
+  
+
 
 function btndesc1() {
     let ps = document.getElementById("ada")
@@ -5,11 +11,11 @@ function btndesc1() {
     if(!ps){
 
         let cihuy = document.createElement("p")
-        cihuy.innerText = "MAKIN DENGAN REJEN R9 7988 DENGAN ERTIEX 9000 SERIES RAM 1TB DAN SSD 999TB"
+        cihuy.innerText = "SPESIFIKASI 512 GB SSD, 16 GB RAM, INTEL i7 GEN 11"
         let nyam =  document.createElement("p")
-        nyam.innerText = "HARGA 5.999.000"
+        nyam.innerText = "HARGA 20.999.000"
         let makin = document.createElement("h1")
-        makin.innerText ="LAPTOP GUS AKIRA BARU"
+        makin.innerText ="LAPTOP TERBARU"
         let dip = document.createElement("div")
         dip.appendChild(makin)
         dip.appendChild(nyam)
@@ -60,7 +66,7 @@ function input() {
             kakak.innerText =inputnama
             let btn = document.createElement("button")
             btn.className = "hapus"
-            btn.innerText = "hapus akuuuuu"
+            btn.innerText = "hapus aku"
             let dip = document.createElement("div")
 
                 btn.addEventListener("click", function () {
@@ -95,3 +101,4 @@ function input() {
     }
     
     }
+
